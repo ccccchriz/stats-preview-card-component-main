@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="card">
+        <picture class="card__image_container">
+          <source
+            media="(min-width: 600px)"
+            srcset="images/image-header-desktop.jpg"
+          />
+          <img
+            src="images/image-header-mobile.jpg"
+            alt=""
+            class="card__image"
+          />
+        </picture>
+        <h1 class="card__title">
+          Get <span class="card__title--accent">insights</span> that help your
+          business grow.
+        </h1>
+        <div class="card__paragraph">
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
+        </div>
+        <div class="card__stats">
+          <div class="card__stat card__stat--first">
+            <span class="card__number">10k+</span>
+            <span class="card__stat_type">companies</span>
+          </div>
+          <div class="card__stat">
+            <span class="card__number">314</span>
+            <span class="card__stat_type">templates</span>
+          </div>
+          <div class="card__stat card__stat--last">
+            <span class="card__number">12m+</span>
+            <span class="card__stat_type">queries</span>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
