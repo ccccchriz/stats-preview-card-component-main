@@ -141,11 +141,17 @@ main {
   align-items: center;
   flex-direction: column;
   font-size: 0.75rem;
+  font-family: var(--clr-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.0625rem;
 }
 
 .card__stat > strong {
   font-size: 1.5rem;
   color: var(--clr-text-main);
+  font-family: var(--ff-base);
+  text-transform: none;
+  letter-spacing: normal;
 }
 
 .card__stat--first {
