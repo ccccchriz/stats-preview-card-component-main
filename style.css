@@ -170,7 +170,7 @@ main {
   letter-spacing: 0.05rem;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 42rem) {
   .card {
     --margin: 4.5rem;
     grid-template-columns: 1fr 1fr;
@@ -186,10 +186,6 @@ main {
   .card__picture {
     grid-row: 1 / 4;
     grid-column: 2 / 3;
-  }
-
-  .card__image {
-    max-width: 300%;
   }
 
   .card__title {
